@@ -12,10 +12,13 @@
 5. [Estructura de Contenidos](#estructura-de-contenidos)
 6. [Funcionalidades Principales](#funcionalidades-principales)
 7. [Tecnologías Sugeridas](#tecnologías-sugeridas)
-8. [Roles y Responsabilidades](#roles-y-responsabilidades)
-9. [Roadmap del Proyecto](#roadmap-del-proyecto)
-10. [Métricas de Éxito](#métricas-de-éxito)
-11. [Glosario](#glosario)
+8. [Versiones de Software](#versiones-de-software)
+9. [Instalación y Ejecución Local](#instalación-y-ejecución-local)
+10. [Roles y Responsabilidades](#roles-y-responsabilidades)
+11. [Autores](#autores)
+12. [Roadmap del Proyecto](#roadmap-del-proyecto)
+13. [Métricas de Éxito](#métricas-de-éxito)
+14. [Glosario](#glosario)
 
 ---
 
@@ -149,6 +152,107 @@ Creciendo Juntos/
 
 ---
 
+## 📦 Versiones de Software
+
+A continuación se listan las versiones exactas utilizadas en el proyecto, extraídas del `package-lock.json`:
+
+| Tecnología | Versión | Descripción |
+|------------|---------|-------------|
+| **Node.js** | ^20.19.0 o >=22.12.0 | Entorno de ejecución requerido por Vite y el plugin React |
+| **npm** | >=8.0.0 | Gestor de paquetes |
+| **React** | 19.2.4 | Librería principal de interfaz de usuario |
+| **React DOM** | 19.2.4 | Renderizado de React en el navegador |
+| **Vite** | 7.3.1 | Herramienta de desarrollo y bundler |
+| **@vitejs/plugin-react-swc** | 4.2.3 | Plugin React con compilador SWC para Vite |
+| **ESLint** | 9.39.3 | Linter de código JavaScript/JSX |
+| **eslint-plugin-react-hooks** | 7.0.1 | Reglas ESLint para React Hooks |
+| **eslint-plugin-react-refresh** | 0.4.26 | Soporte para React Fast Refresh en ESLint |
+| **@swc/core** | 1.15.18 | Compilador JavaScript/TypeScript de alto rendimiento |
+| **PostCSS** | 8.5.6 | Procesador de CSS |
+| **Rollup** | 4.59.0 | Bundler de módulos (usado internamente por Vite) |
+| **Git** | v2.40+ | Control de versiones |
+
+> ⚠️ Este proyecto usa **React 19** (versión más reciente). Asegúrate de que Node.js sea **v20.19.0 o superior** antes de instalar.
+
+---
+
+## 🚀 Instalación y Ejecución Local
+
+Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local.
+
+### Prerrequisitos
+
+Asegúrate de tener instalado lo siguiente antes de comenzar:
+
+- [Node.js v20.19.0 o superior](https://nodejs.org/) *(requerido por Vite 7)*
+- [Git](https://git-scm.com/)
+
+Puedes verificar tus versiones con:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+---
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/creciendo-juntos.git
+cd creciendo-juntos
+```
+
+---
+
+### 2. Instalar dependencias
+
+```bash
+npm install
+```
+
+Esto instalará automáticamente todas las dependencias definidas en el `package.json`, incluyendo React 19, Vite 7 y ESLint 9.
+
+---
+
+### 3. Iniciar el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+El proyecto estará disponible en: `http://localhost:5173`
+
+---
+
+### 4. Otros comandos disponibles
+
+```bash
+# Compilar para producción
+npm run build
+
+# Previsualizar el build de producción
+npm run preview
+
+# Ejecutar el linter
+npm run lint
+```
+
+---
+
+### 5. Verificar que todo funciona
+
+Una vez levantado el servidor, abre tu navegador en:
+
+```
+http://localhost:5173
+```
+
+Si ves la pantalla de inicio de **Creciendo Juntos**, ¡la instalación fue exitosa! 🎉
+
+---
+
 ## 👤 Roles y Responsabilidades
 
 | Rol | Responsabilidades |
@@ -217,6 +321,8 @@ Creciendo Juntos/
 | **Frontend** | Parte visible del sitio web que interactúa el usuario |
 | **Backend** | Lógica interna del sistema que gestiona datos y procesos |
 | **Wireframe** | Boceto o esquema visual de una pantalla o interfaz |
+| **LTS** | Long Term Support – versión de software con soporte extendido |
+| **ENV** | Variables de entorno que configuran el comportamiento del sistema |
 
 ---
 
@@ -229,6 +335,16 @@ Creciendo Juntos/
 - 💬 Comunidad: `discord.gg/creciendojuntos`
 
 ---
+
+## Tabla de Autores
+| Nombre del Integrante | Usuario de GitHub |
+| :--- | :--- |
+| Daniel Martínez Echavarría       | [@DanielMartinez260906](https://github.com/DanielMartinez260906) |
+| Carolina Martínez Mesa           | [@caromm80](https://github.com/caromm80)                         |
+| Britany Alexandra Montoya Tirado | [@Britany-mon](https://github.com/Britany-mon)                   |
+| Brandon Ciro Ortiz               | [@OBrandonC](https://github.com/OBrandonC)                       |
+| Samuel Hoyos Vanegas             | [@SamuelH1211](https://github.com/SamuelH1211)                   |
+
 
 *Documentación generada para el proyecto **Creciendo Juntos** — Versión 1.0*  
 *Última actualización: Marzo 2026*
